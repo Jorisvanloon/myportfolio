@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Library</title>
+	<script type="text/javascript" src="js/library.js"></script>
+	<link rel="stylesheet" href="style/css.css">
+
+</head>
+<body>
+<div id="container">
+	<div id="tijd"></div>
+
+	<p id="tekstveld"></p>
+	<div id="buttonveld"></div>
+</div>
+
+<!-- Deze DIV is alleen in ochtend/middag zichtbaar -->
+<div id="winkelafspraak"> 
+	 <div class="form">
+
+	    <form class="login-form">
+		    <h1>Plan hier een afspraak in, bij uw Specsavers</h1>
+		      <input type="text" placeholder="Naam"/>
+		      <input type="emailadres" placeholder="Emailadres"/>
+		      <input type="woonplaats" placeholder="Woonplaats"/>
+			      <button>Plan mijn afspraak in</button>
+				  <img src="img/audi.jpg" alt="audi">
+	    </form>
+	 </div>
+</div>
+
+<!-- Hier wordt library aangeroepen -->
+<script type="text/javascript"> 
+Library.greet();
+</script>
+
+</body>
+</html>
