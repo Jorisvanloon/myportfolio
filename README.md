@@ -27,27 +27,28 @@ Download de library (zip) en pak het bestand uit. Plaats de CSS, IMG en JS in de
 
 ```html
 <div id="container">
+	<div id="tijd"></div>
 
 	<p id="tekstveld"></p>
 	<div id="buttonveld"></div>
-	<div id="tijd"></div>
-
 </div>
-<div id="winkelafspraak">
+
+<!-- Deze DIV is alleen in ochtend/middag zichtbaar -->
+<div id="winkelafspraak"> 
 	 <div class="form">
 
 	    <form class="login-form">
-	    	<h1>Plan hier een afspraak in, bij uw Specsavers</h1>
-	      		<input type="text" placeholder="Naam"/>
-	      		<input type="emailadres" placeholder="Emailadres"/>
-	      		<input type="woonplaats" placeholder="Woonplaats"/>
-	      			<button>Plan mijn afspraak in</button>
-		  		<img src="img/audi.jpg" alt="audi">
-
+		    <h1>Plan hier een afspraak in, bij uw Specsavers</h1>
+		      <input type="text" placeholder="Naam"/>
+		      <input type="emailadres" placeholder="Emailadres"/>
+		      <input type="woonplaats" placeholder="Woonplaats"/>
+			      <button>Plan mijn afspraak in</button>
+				  <img src="img/audi.jpg" alt="audi">
 	    </form>
 	 </div>
 </div>
 
+<!-- Hier wordt library aangeroepen -->
 <script type="text/javascript"> 
 Library.greet();
 </script>
