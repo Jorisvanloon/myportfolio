@@ -18,7 +18,7 @@ De library kan als volgt geinstalleerd worden in je website.
 ###Methode 1: GitHub clone
 
 ```
- $ git clone https://github.com/Jorisvanloon/library
+ $ git clone https://github.com/Jorisvanloon/myportfolio
  ```
 
 
