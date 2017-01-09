@@ -38,7 +38,7 @@ Download de library (zip) en pak het bestand uit. Plaats de CSS, IMG en JS in de
 	 <div class="form">
 
 	    <form class="login-form">
-		    <h1>Plan hier een afspraak in, bij uw Specsavers</h1>
+		    <h1>Plan hier een afspraak in, bij uw *uw bedrijf*</h1>
 		      <input type="text" placeholder="Naam"/>
 		      <input type="emailadres" placeholder="Emailadres"/>
 		      <input type="woonplaats" placeholder="Woonplaats"/>
@@ -75,4 +75,4 @@ De komende periode kunnen deze aanpassingen verwacht worden (01-2017):
 * Zelf achtergrond aan kunnen passen
 * Achtergrond aanpassen aan locatie van bezoeken website
 * Mogelijkheid om afspraak in te plannen per filiaal
-* Zien welke Specsavers open en dicht zijn op dat moment 
+* Zien welke *uw bedrijf* open en dicht zijn op dat moment 
