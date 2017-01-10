@@ -3,6 +3,9 @@ Door deze zelf geschreven library toe te voegen aan je project wordt er een pagi
 
 ## Wat het doet
 Functionaliteiten van deze library
+* Library gebruikt eigen gekozen naam, email en bedrijfsnaam.
+* Contact formulier wordt ingevuld met ingevulde informatie.
+* Toont tijd van dat moment, groot in beeld. 
 * Wijzigt achtergrond per dagdeel : Ochtend, Middag en Avond.
 * Creeert 2 buttons op homepagina, aan te passen naar wat je zelf wilt.
 * Buttons worden doorverwezen naar externe pagina en element in pagina.
