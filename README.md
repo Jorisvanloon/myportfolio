@@ -27,9 +27,8 @@ Download de library (zip) en pak het bestand uit. Plaats de CSS, IMG en JS in de
 
 ```html
 <div id="container">
-	<div id="tijd"></div>
-
 	<p id="tekstveld"></p>
+	<div id="tijd"></div>
 	<div id="buttonveld"></div>
 </div>
 
@@ -38,16 +37,15 @@ Download de library (zip) en pak het bestand uit. Plaats de CSS, IMG en JS in de
 	 <div class="form">
 
 	    <form class="login-form">
-		    <h1>Plan hier een afspraak in, bij uw *uw bedrijf*</h1>
-		      <input type="text" placeholder="Naam"/>
-		      <input type="emailadres" placeholder="Emailadres"/>
-		      <input type="woonplaats" placeholder="Woonplaats"/>
-			      <button>Plan mijn afspraak in</button>
+		    <h1>Plan hier een afspraak in:</h1>
+		      <input id="naamVeld"  type="text" placeholder="Naam"/>
+		      <input id="emailVeld" type="emailadres" placeholder="Emailadres"/>
+		      <input id="datumVeld" type="woonplaats" placeholder="Woonplaats"/>
+			      <button id="planafspraak"></button>
 				  <img src="img/audi.jpg" alt="audi">
 	    </form>
 	 </div>
 </div>
-
 <!-- Hier wordt library aangeroepen -->
 <script type="text/javascript"> 
 Library.greet();
