@@ -47,9 +47,9 @@ Download de library (zip) en pak het bestand uit. Plaats de CSS, IMG en JS in de
 	 </div>
 </div>
 <!-- Hier wordt library aangeroepen -->
-<script type="text/javascript"> 
-Library.greet();
-</script>
+<script> Library.greet(); </script>
+<script> Library.tijd();</script>
+<script> Library.button(); </script>
 ```
 
 Voeg de volgende twee regels toe aan je header tag:
